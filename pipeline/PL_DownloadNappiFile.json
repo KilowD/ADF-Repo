@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "DownloadNappieFile",
+				"name": "DownloadNappiFile",
 				"description": "Download and unzip Nappie Zip Folder into OmgStoreContainer",
 				"type": "Copy",
 				"dependsOn": [],
