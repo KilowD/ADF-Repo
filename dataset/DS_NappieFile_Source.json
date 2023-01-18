@@ -1,0 +1,20 @@
+{
+	"name": "DS_NappieFile_Source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Nappie_HttpServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"compression": {
+				"type": "ZipDeflate",
+				"level": "Fastest"
+			}
+		}
+	}
+}
