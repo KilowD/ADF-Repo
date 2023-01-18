@@ -1,0 +1,12 @@
+{
+	"name": "LS_Nappie_HttpServer",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://www.medikredit.co.za/wp-content/mk-data-files/nappi-pub/PUBDOM.zip",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
